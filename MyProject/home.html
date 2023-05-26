@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpeg" href="img/logo.jpeg">
+    <link rel="stylesheet" href="home.css">
+    <title>CMS</title>
+   </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="home.html">Complaint Management</a>
+      </div>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="img"></div>
+  <div class="center">
+    <div class="title"> Complaints Managemment Software</div>
+    <div class="sub_title"> Standardize the Complaints Workflow to Ensure Maximum Customer Satisfication</div>
+    <div class="btns">
+      <button id="myButton" class="btns">Customer Login</button>
+      <button id="myRegister" class="btns">Register</button>
+      <button id="myadmin" class="btns">Admin Login</button>
+      <script type="text/javascript">
+          document.getElementById("myButton").onclick = function(){
+          location.href="login.php";
+         };
+          document.getElementById("myadmin").onclick = function(){
+          location.href="admin_login.php";
+          };
+          document.getElementById("myRegister").onclick = function(){
+          location.href="register.php";
+        };
+      </script>
+       <!-- Footer -->
+       <footer>
+        <div class="row">
+            <div style="color: aliceblue;">
+               <b class="copyright">&copy; 2022 TC COLLEGE </b> All rights reserved.
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
